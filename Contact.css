@@ -1,0 +1,258 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    background-color: white;
+    position:fixed;
+    width: 100vw;
+    height: 70px;
+}
+@media screen {
+    
+}
+#Apply{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    padding-top: 3px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.no:hover,
+.no:visited
+{
+    color: red;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+span{
+    color: gold;
+}
+#N{
+    display: flex;
+    list-style-type: none;
+    gap:20px
+}
+.button{
+    border:solid;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    width: 100px;
+    margin-top: -10px;
+    background-color: red;
+    color: antiquewhite;
+}
+.n:visited{
+    color:red
+}
+#pic{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./pics/aptech.jpeg");
+    background-position: center;
+    height: 60vh;
+    margin-left: -30px;
+}
+#ap{
+    height: 45px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    margin-top: -700px;
+    height: 700px;
+}
+fieldset{
+    width: 500px;
+    height: 700px;
+    background-color: #ededed;
+    border-radius: 20px;
+}
+label{
+    margin-left: 30px;
+    font-size: 22px;
+}
+textarea{
+    margin-left: 30px;
+}
+input{
+    width: 400px;
+    height: 60px;
+    margin-left: 30px;
+}
+#chat{
+    margin-top: 200px;
+    margin-left: 40px ;
+}
+.same{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 999px;
+    padding: 7px;
+    background-color: rgb(242, 242, 197);
+}
+#email{
+    margin-top: -45px;
+    margin-left: 110px;
+}
+#office{
+    margin-top: -45px;
+    margin-left: 110px;
+}
+#phone{
+    margin-top: -45px;
+    margin-left: 110px;
+}
+#follow{
+    margin-top: -45px;
+    margin-left: 110px;
+}
+iframe{
+    width: 100vw;
+    margin-top: 70px;
+}
+#enroll{
+    display: flex;
+    justify-content: center;
+}
+#f{
+    height: 60px;
+}
+#f1{
+    display: flex;
+    justify-content: space-between;
+}
+#f2{
+    display: flex;
+    border: 5px solid;
+    width: 220px;
+    border-color: #070739;
+    margin-top: 5px;
+}
+#l{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-top: -120px;
+   gap: 20px;
+}
+#logo1{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    margin-left: 750px;
+    margin-top: -150px;
+}
+#logo2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    margin-left: 800px;
+    margin-top: -40px;
+}
+#logo3{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    margin-left: 850px;
+    margin-top: -40px;
+}
+#logo4{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    margin-left: 900px;
+    margin-top: -40px;
+}
+#enroll2{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #070739;
+    background-color: yellow;
+    margin-left: 800px;
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px;
+}
+#con1{
+    margin-left: 1070px;
+    margin-top: -100px;
+}
+#con2{
+    margin-left: 1070px;
+    margin-top: 10px;
+}
+#con3{
+    margin-left: 1070px;
+    margin-top: 20px;
+}
+#footer{
+    border-style: solid;
+    border-color: #070739;
+    background-color: #070739;
+}

@@ -1,0 +1,185 @@
+#ap{
+    height: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+.n{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#p{
+    margin-top: -20px;
+    align-items: center;
+}
+.no:hover,
+.no:visited
+{
+    color: red;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./pics/aptech.jpeg");
+    background-position: center;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+#ab{
+    margin-left: 90px;
+}
+#about{
+    margin-left: 50px;
+    font-weight: 50px;
+}
+#words{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: nowrap;
+    font-size: x-large;
+}
+video{
+    float: left;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+#in{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+#collab{
+    margin-left: 90px;
+}
+#enroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    background-color: #ededed;
+    height: 50px;
+    margin-top: 70px;
+}
+#f{
+    height: 60px;
+}
+#f1{
+    display: flex;
+    justify-content: space-between;
+}
+#f2{
+    display: flex;
+    border: 5px solid;
+    width: 220px;
+    border-color: #070739;
+    margin-top: 5px;
+}
+#l{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-top: -140px;
+   gap: 20px;
+}
+#logo1{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin-left: 750px;
+    margin-top: -170px;
+}
+#logo2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 20px;
+    width: 20px;
+    padding: 6px;
+    margin-left: 800px;
+    margin-top: -36px;
+}
+#logo3{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 20px;
+    width: 20px;
+    padding: 6px;
+    margin-left: 850px;
+    margin-top: -37px;
+}
+#logo4{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #070739;
+    border-radius: 99px;
+    background-color:rgba(21, 21, 62, 0.255);
+    height: 20px;
+    width: 20px;
+    padding: 6px;
+    margin-left: 900px;
+    margin-top: -37px;
+}
+#enroll2{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #070739;
+    background-color: yellow;
+    margin-left: 800px;
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px;
+}
+#con1{
+    margin-left: 1070px;
+    margin-top: -100px;
+}
+#con2{
+    margin-left: 1070px;
+    margin-top: 10px;
+}
+#con3{
+    margin-left: 1070px;
+    margin-top: 20px;
+}
+#footer{
+    border-style: solid;
+    border-color: #070739;
+    background-color: #070739;
+}
+body{
+    height:100vh;
+    width  :100vw
+}
